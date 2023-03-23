@@ -14,6 +14,8 @@ import RunTimes_6 from "./Forms/RunTimes_6";
 import Subscription_8 from "./Forms/Subscription_8";
 import PaymentMethods_9 from "./Forms/PaymentMethods_9";
 import Rateattribute_10 from "./Forms/Rateattribute_10";
+import OrderSubmission_12 from "./Forms/OrderSubmission_12";
+import Miscellaneous_11 from "./Forms/Miscellaneous_11";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -91,7 +93,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <CatchmentArea_3/>
+          <CatchmentArea_3 />
           <div className="my-4">
             <Divider />
           </div>
@@ -189,7 +191,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <RunTimes_6/>
+          <RunTimes_6 />
           <div className="my-4">
             <Divider />
           </div>
@@ -254,7 +256,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Subscription_8/>
+          <Subscription_8 />
           <div className="my-4">
             <Divider />
           </div>
@@ -287,7 +289,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <PaymentMethods_9/>
+          <PaymentMethods_9 />
           <div className="my-4">
             <Divider />
           </div>
@@ -320,7 +322,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Rateattribute_10/>
+          <Rateattribute_10 />
           <div className="my-4">
             <Divider />
           </div>
@@ -353,6 +355,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <Miscellaneous_11 />
           <div className="my-4">
             <Divider />
           </div>
@@ -385,6 +388,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <OrderSubmission_12 />
           <div className="my-4">
             <Divider />
           </div>
@@ -400,7 +404,7 @@ export default function Tarif() {
               className="mx-3"
               variant="contained"
               color="success"
-              //   onClick={(e) => handleExpand("panel")(e, true)}
+            //   onClick={(e) => handleExpand("panel")(e, true)}
             >
               CREATE A TARIF
             </Button>
