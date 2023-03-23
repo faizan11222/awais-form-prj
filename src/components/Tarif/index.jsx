@@ -10,6 +10,7 @@ import { Button, Divider } from "@mui/material";
 import CatchmentArea_3 from "./Forms/CatchmentArea_3";
 import DistributionChannels_2 from "./Forms/DistributionChannels_2";
 import ExclusionCriteria_4 from "./Forms/ExclusionCriteria_4";
+import RunTimes_6 from "./Forms/RunTimes_6";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -185,6 +186,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+            <RunTimes_6/>
           <div className="my-4">
             <Divider />
           </div>
