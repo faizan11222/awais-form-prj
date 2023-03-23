@@ -1,13 +1,15 @@
+/* eslint-disable react/jsx-pascal-case */
 import * as React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Basic from "./Forms/Basic";
+import Basic_1 from "./Forms/Basic_1";
 import { Button, Divider } from "@mui/material";
-import DistributionChannels from "./Forms/DistributionChannels";
 import CatchmentArea_3 from "./Forms/CatchmentArea_3";
+import DistributionChannels_2 from "./Forms/DistributionChannels_2";
+import ExclusionCriteria_4 from "./Forms/ExclusionCriteria_4";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -28,7 +30,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Basic />
+          <Basic_1 />
           <div className="my-4">
             <Divider />
           </div>
@@ -52,7 +54,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <DistributionChannels />
+          <DistributionChannels_2 />
           <div className="my-4">
             <Divider />
           </div>
@@ -118,6 +120,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <ExclusionCriteria_4 />
           <div className="my-4">
             <Divider />
           </div>

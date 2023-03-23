@@ -1,7 +1,7 @@
 import { MenuItem, TextField, Typography } from "@mui/material";
 import React from "react";
 
-const Basic = () => {
+const Basic_1 = () => {
   return (
     <div>
       <div className="row">
@@ -59,4 +59,4 @@ const Basic = () => {
   );
 };
 
-export default Basic;
+export default Basic_1;
