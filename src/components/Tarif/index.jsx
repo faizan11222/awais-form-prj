@@ -11,6 +11,8 @@ import CatchmentArea_3 from "./Forms/CatchmentArea_3";
 import DistributionChannels_2 from "./Forms/DistributionChannels_2";
 import ExclusionCriteria_4 from "./Forms/ExclusionCriteria_4";
 import RunTimes_6 from "./Forms/RunTimes_6";
+import Subscription_8 from "./Forms/Subscription_8";
+import PaymentMethods_9 from "./Forms/PaymentMethods_9";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -251,6 +253,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <Subscription_8/>
           <div className="my-4">
             <Divider />
           </div>
@@ -283,6 +286,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <PaymentMethods_9/>
           <div className="my-4">
             <Divider />
           </div>
