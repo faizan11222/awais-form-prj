@@ -7,6 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Basic from "./Forms/Basic";
 import { Button, Divider } from "@mui/material";
 import DistributionChannels from "./Forms/DistributionChannels";
+import CatchmentArea_3 from "./Forms/CatchmentArea_3";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -84,10 +85,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
-          </Typography>
+          <CatchmentArea_3/>
           <div className="my-4">
             <Divider />
           </div>
