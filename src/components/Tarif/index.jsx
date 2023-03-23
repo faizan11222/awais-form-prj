@@ -13,6 +13,8 @@ import ExclusionCriteria_4 from "./Forms/ExclusionCriteria_4";
 import RunTimes_6 from "./Forms/RunTimes_6";
 import Subscription_8 from "./Forms/Subscription_8";
 import PaymentMethods_9 from "./Forms/PaymentMethods_9";
+import Precalculation_5 from "./Forms/Precalculation_5";
+import AdditionalServices_7 from "./Forms/AdditionalServices_7";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -90,7 +92,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <CatchmentArea_3/>
+          <CatchmentArea_3 />
           <div className="my-4">
             <Divider />
           </div>
@@ -156,6 +158,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <Precalculation_5 />
           <div className="my-4">
             <Divider />
           </div>
@@ -188,7 +191,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <RunTimes_6/>
+          <RunTimes_6 />
           <div className="my-4">
             <Divider />
           </div>
@@ -221,6 +224,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <AdditionalServices_7 />
           <div className="my-4">
             <Divider />
           </div>
@@ -253,7 +257,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Subscription_8/>
+          <Subscription_8 />
           <div className="my-4">
             <Divider />
           </div>
@@ -286,7 +290,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <PaymentMethods_9/>
+          <PaymentMethods_9 />
           <div className="my-4">
             <Divider />
           </div>
