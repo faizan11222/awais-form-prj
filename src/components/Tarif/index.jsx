@@ -4,7 +4,6 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Basic_1 from "./Forms/Basic_1";
 import { Button, Divider } from "@mui/material";
 import CatchmentArea_3 from "./Forms/CatchmentArea_3";
@@ -15,6 +14,9 @@ import Subscription_8 from "./Forms/Subscription_8";
 import PaymentMethods_9 from "./Forms/PaymentMethods_9";
 import Precalculation_5 from "./Forms/Precalculation_5";
 import AdditionalServices_7 from "./Forms/AdditionalServices_7";
+import Rateattribute_10 from "./Forms/Rateattribute_10";
+import OrderSubmission_12 from "./Forms/OrderSubmission_12";
+import Miscellaneous_11 from "./Forms/Miscellaneous_11";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -323,6 +325,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <Rateattribute_10 />
           <div className="my-4">
             <Divider />
           </div>
@@ -355,6 +358,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <Miscellaneous_11 />
           <div className="my-4">
             <Divider />
           </div>
@@ -387,6 +391,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <OrderSubmission_12 />
           <div className="my-4">
             <Divider />
           </div>
@@ -402,7 +407,7 @@ export default function Tarif() {
               className="mx-3"
               variant="contained"
               color="success"
-              //   onClick={(e) => handleExpand("panel")(e, true)}
+            //   onClick={(e) => handleExpand("panel")(e, true)}
             >
               CREATE A TARIF
             </Button>
