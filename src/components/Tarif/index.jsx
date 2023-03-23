@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Basic_1 from "./Forms/Basic_1";
 import { Button, Divider } from "@mui/material";
+import CatchmentArea_3 from "./Forms/CatchmentArea_3";
 import DistributionChannels_2 from "./Forms/DistributionChannels_2";
 import ExclusionCriteria_4 from "./Forms/ExclusionCriteria_4";
 
@@ -86,10 +87,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
-          </Typography>
+          <CatchmentArea_3/>
           <div className="my-4">
             <Divider />
           </div>
