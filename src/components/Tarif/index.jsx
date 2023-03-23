@@ -13,6 +13,7 @@ import ExclusionCriteria_4 from "./Forms/ExclusionCriteria_4";
 import RunTimes_6 from "./Forms/RunTimes_6";
 import Subscription_8 from "./Forms/Subscription_8";
 import PaymentMethods_9 from "./Forms/PaymentMethods_9";
+import Rateattribute_10 from "./Forms/Rateattribute_10";
 
 export default function Tarif() {
   const [expanded, setExpanded] = React.useState(false);
@@ -319,6 +320,7 @@ export default function Tarif() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
+          <Rateattribute_10/>
           <div className="my-4">
             <Divider />
           </div>
