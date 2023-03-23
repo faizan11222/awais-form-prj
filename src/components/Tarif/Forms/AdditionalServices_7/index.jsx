@@ -11,16 +11,26 @@ import { fieldJson } from "./constant";
 const AdditionalServices_7 = () => {
   const [fields, setFields] = useState(fieldJson);
 
+  // const handleChecks = (e, i, ind) => {
+  //   const fieldsCopy = [...fields];
+  //   const fieldIndex = fieldsCopy[ind].findIndex(field => field.name === fields[ind][i].name);
+
+  //   if (fieldIndex !== -1) {
+  //     fieldsCopy[ind][fieldIndex].check = e.target.checked;
+  //     setFields(fieldsCopy);
+  //   }
+  // };
   const handleChecks = (e, i, ind) => {
     const fieldsCopy = [...fields];
-    const fieldIndex = fieldsCopy[ind].findIndex(field => field.name === fields[ind][i].name);
-  
-    if (fieldIndex !== -1) {
-      fieldsCopy[ind][fieldIndex].check = e.target.checked;
-      setFields(fieldsCopy);
-    }
+    fieldsCopy[ind][i].check = e.target.checked;
+    setFields([...fieldsCopy]);
   };
-  console.log(fields);
+  // const handleChecks = (e, i, ind) => {
+  //   const updatedFields = [...fields];
+  //   updatedFields[ind][i][fields[ind][i].check] = e.target.checked;
+  //   setFields(updatedFields);
+  // };
+
   return (
     <>
       <style jsx>{`
